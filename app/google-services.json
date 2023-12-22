@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "315816811061",
+    "firebase_url": "https://calory-ce7ae-default-rtdb.firebaseio.com",
+    "project_id": "calory-ce7ae",
+    "storage_bucket": "calory-ce7ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315816811061:android:24b45f9b838b7088ccaf7c",
+        "android_client_info": {
+          "package_name": "com.example.bisa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyHz8DjTAe6E7AMPezvVfgs6qojV31YLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315816811061:android:136e6abece76d9f0ccaf7c",
+        "android_client_info": {
+          "package_name": "com.example.calory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyHz8DjTAe6E7AMPezvVfgs6qojV31YLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315816811061:android:0c2ddfcffeb5086eccaf7c",
+        "android_client_info": {
+          "package_name": "com.example.uas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyHz8DjTAe6E7AMPezvVfgs6qojV31YLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315816811061:android:974cd9abaec59fceccaf7c",
+        "android_client_info": {
+          "package_name": "om.example.uas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyHz8DjTAe6E7AMPezvVfgs6qojV31YLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

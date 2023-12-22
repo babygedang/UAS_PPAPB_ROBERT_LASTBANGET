@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".user.UserAddMakananActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue1"
+        app:title="Tambahkan Makanan"
+        app:titleTextColor="@color/yellow"
+        tools:ignore="MissingConstraints"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        >
+
+        <EditText
+            android:id="@+id/addETMakanan"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_edit"
+            android:textSize="18sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:drawableLeft="@drawable/baseline_food_24"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:hint="Makanan"/>
+
+        <EditText
+            android:id="@+id/addETKalori"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_edit"
+            android:textSize="18sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:drawableLeft="@drawable/baseline_kalori_24"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:hint="Kalori"
+            android:inputType="number"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addTVWaktu"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_watch_later_24"
+                android:text=""
+                android:textSize="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/addBTTambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFC107"
+            android:paddingHorizontal="16dp"
+            android:textColor="@color/blue1"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:text="Tambahkan Makanan"
+            android:layout_gravity="end"
+            />
+    </LinearLayout>
+</LinearLayout>

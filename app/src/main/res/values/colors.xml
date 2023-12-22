@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ungu1">#7465E4</color>
+    <color name="ungu2">#EEEBFC</color>
+    <color name="ungu3">#AF8EFF</color>
+    <color name="ungu4">#5847D8</color>
+    <color name="ungu5">#BDA4F8</color>
+    <color name="blue1">#4465A9</color>
+    <color name="yellow">#FFC107</color>
+    <color name="grey">#9C27B0</color>
+    <color name="red">#B80341</color>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/daftar_bg">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="295dp"
+            android:text="Email"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/signup_et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="325dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/bg_editext"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="15dp"
+            android:hint="Masukan Email Anda"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="380dp"
+            android:text="Password"
+            android:textSize="16sp" />
+
+        <EditText
+
+            android:id="@+id/signup_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/bg_editext"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:drawablePadding="15dp"
+            android:hint="Masukan Password Anda"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_bt_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/round_linear"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/signup_bt_to_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue1"
+            android:text="Alraady Registered , Sign In ?"
+            android:layout_marginTop="545dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center">
+        </TextView>
+    </RelativeLayout>
+</ScrollView>
